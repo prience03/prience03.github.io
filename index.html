@@ -1,275 +1,189 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
 
+ <!DOCTYPE HTML>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+    <title>Prience</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="Prience03">
+    
+    
+    
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="Prience" title="Prience"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Prience">Prience</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main">
+
+  <section class="post" itemscope itemprop="blogPost">
   
-    <article id="post-RxJava-1" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/03/25/RxJava-1/" class="article-date">
-  <time datetime="2016-03-25T05:43:24.000Z" itemprop="datePublished">2016-03-25</time>
-</a>
+    <a href="/2016/03/25/RxJava-1/" title="RxJava---1" itemprop="url">
+  
+    <h1 itemprop="name">RxJava---1</h1>
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+     
+           <p itemprop="description" >现在浏览技术博客，全是RxJava的相关信息，一直搞不懂到底是干什么用的。现在开始学习。
+ RxJava 到底是什么 
+ “a library for composing asynchronous and event-based programs using observable</p>
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/25/RxJava-1/">RxJava---1</a>
-    </h1>
-  
-
-      </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>现在浏览技术博客，全是RxJava的相关信息，一直搞不懂到底是干什么用的。现在开始学习。</p>
-<p><strong> RxJava 到底是什么 </strong></p>
-<p> “a library for composing asynchronous and event-based programs using observable sequences for the Java VM “<br> 我用蹩脚的英文翻译过来是， 一个在Java VM上使用可观测的序列来组成异步的、基于事件的程序的库<br> 这是一个很抽象的概念。简单来说 ，<strong>异步 </strong><br> Android上异步处理已经有很多，相比较而言这个为什么这么火。 <strong>随着程序逻辑变得越来越复杂，它依然能够保持简洁。</strong><br> <strong>基础概念</strong><br>RxJava最核心的两个东西是Observables（被观察者）和 Observer or Subscribers  （观察者）<br>Observables发出一系列事件，Subscribers处理这些事件。这里的事件可以是任何东西（算法，接口返回的数据，耗时操作 …）<br>一个Observable可以发出多个事件，直到结束或者出错。每发出一个事件，就会调用它的Subscriber的onNext方法，最后调用Subscriber.onCompleted()或者Subscriber.onError()结束。（onCompleted()和onError()只能执行一个）<br>Android Studio Gradle 添加<br>compile ‘io.reactivex:rxandroid:1.1.0’<br>// Because RxAndroid releases are few and far between, it is recommended you also<br>// explicitly depend on RxJava’s latest version for bug fixes and new features.<br>compile ‘io.reactivex:rxjava:1.1.0’</p>
-<p>了解概念之后上代码：<br>创建观察者有两种方式，区别在于Subscriber 有onStart（）方法。其他待研究<br>1） </p>
-<pre><code>Observer&lt;String&gt; observer = new Observer&lt;String&gt;() {
-        @Override
-        public void onCompleted() {
-            Log.i(TAG + &quot;onCompleted&quot; ,&quot;Complete&quot;) ;
-        }
-        @Override
-        public void onError(Throwable e) {
-            Log.i(TAG + &quot;onError&quot;, e.getMessage()) ;
-        }
-
-        @Override
-        public void onNext(String s) {
-            Log.i(TAG +&quot;onNext&quot; ,&quot;OnNext&quot; + s);
-        }
-    } ;
-</code></pre><p>2）</p>
-<pre><code>Subscriber&lt;String&gt; subscriber = new Subscriber&lt;String&gt;() {
-
-        @Override
-        public void onStart() {
-            super.onStart();
-        }
-
-        @Override
-        public void onCompleted() {
-
-        }
-
-        @Override
-        public void onError(Throwable e) {
-
-        }
-
-        @Override
-        public void onNext(String s) {
-
-        }
-    } ;
-</code></pre><p>创建被观察者：<br>直接调用 Observable.create</p>
-<pre><code>Observable&lt;String&gt; myObservable = Observable.create(  
-    new Observable.OnSubscribe&lt;String&gt;() {  
-        @Override  
-        public void call(Subscriber&lt;? super String&gt; sub) {  
-            sub.onNext(&quot;Hello, world!&quot;);  
-            sub.onNext(&quot;First, RxJavaExample!&quot;);  
-            sub.onCompleted();  
-        }  
-    }  
-); 
-</code></pre><p>订阅：</p>
-<p>订阅的逻辑是反的，  </p>
-<pre><code>myObservable.subscriber(subscriber);   
-
-or
-
-myObservable.subscriber(observer);  
-</code></pre><p> 查看log ，会发现已经打印了要的数据。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/25/RxJava-1/" data-id="cim7bnhqk00019kqsfrsu6975" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-My-New-Post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/03/17/My-New-Post/" class="article-date">
-  <time datetime="2016-03-17T09:43:00.000Z" itemprop="datePublished">2016-03-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/17/My-New-Post/">My New Post</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/17/My-New-Post/" data-id="cim7bnhqc00009kqsvzdy5rtx" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
+    <time datetime="2016-03-25T05:43:24.000Z" itemprop="datePublished">2016-03-25</time>
+  </a>
 </section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2016/03/17/My-New-Post/" title="My New Post" itemprop="url">
+  
+    <h1 itemprop="name">My New Post</h1>
+    
+     
+           <p itemprop="description" ></p>
         
-          <aside id="sidebar">
-  
     
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li></ul>
-    </div>
-  </div>
+    <time datetime="2016-03-17T09:43:00.000Z" itemprop="datePublished">2016-03-17</time>
+  </a>
+</section>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2016/03/25/RxJava-1/">RxJava---1</a>
-          </li>
-        
-          <li>
-            <a href="/2016/03/17/My-New-Post/">My New Post</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+</div>
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
 
   
+
+  
+
+  <div class="rsspart">
+	<a href="null" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
 </aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2016 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+</div>
     </div>
-  </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font clearfix">
+		
+		
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2016 
+		
+		<a href="http://yoursite.com" target="_blank" title="Prience03">Prience03</a>
+		
+		</p>
+</div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<script src="/js/script.js"></script>
 
-  </div>
-</body>
-</html>
+
+  </body>
+ </html>
